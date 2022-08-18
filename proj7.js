@@ -1,0 +1,9 @@
+$(document).ready(
+    function(){
+        $(".btn").click(
+            function(){
+                $(".fuck").slideToggle("slow");
+            }
+        );
+    }
+);
